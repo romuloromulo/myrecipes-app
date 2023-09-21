@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Meal-App1",
+    "name": "Minhas Receitas",
     "slug": "Meal-App1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,18 +12,29 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.romulo.viana.MealApp1"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.romulo.viana.MealApp1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dea4bf5c-fafd-4c71-8d76-874ad0d0e211"
+      }
     }
   }
 }

@@ -89,7 +89,7 @@ function MealsDetail({ route, navigation }) {
   // }
 
   return (
-    <ScrollView style={styles.root}>
+    <ScrollView style={styles.root} key={id}>
       <View style={styles.innerContainer}>
         <Image style={styles.image} source={{ uri: imageUrl }} />
         <Text style={styles.title}> {title}</Text>

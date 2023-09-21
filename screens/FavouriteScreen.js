@@ -18,7 +18,13 @@ function FavoritesScreen({ navigation }) {
     );
   }
 
-  return <MealsList navigation={navigation} items={favoriteMeals} />;
+  return (
+    <MealsList
+      navigation={navigation}
+      items={favoriteMeals}
+      key={Math.random(1, 10)}
+    />
+  );
 }
 
 export default FavoritesScreen;
